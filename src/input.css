@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: geometric sans-serif;
+}
+.bg-sign{
+    background-color: #083F9B;
+}
+.bg-grad{
+    background-color: #4A16BD;
+}
+.bg-span{
+    background-color: #0E38CD;
+}
+.bg-card{
+    background-color: #D9ECFF;
+}
+.grad1{
+    background-color: #739FE8;
+}
+.grad2{
+    background-color: #4F18CA;
+}
+.font-cur{
+    font-family: Poppins  ;
+}
+
+@media screen and (max-width:720px) {
+
+    .nav-text{
+        font-size: 12px;
+    }
+    .sign-text{
+        font-size: 12px;
+    }
+    .text-coch{
+        font-size: 30px;
+    }
+    .amaz{
+        width: 40px;
+        height: 20px;
+    }
+    .learn{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .subscibe{
+        width: 600px;
+        font-size: 14px;
+    }
+    .popup1{
+        display: none;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .nav-text{
+        display: none;
+    }
+    .nav-icon{
+        width: 70%;
+        /* gap:2px; */
+    }
+    .grid2{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .subscibe{
+        width: 370px;
+        font-size: 14px;
+    }
+    .sub{
+        display: none;
+    }
+    .pop{
+        display: none;
+    }
+}
